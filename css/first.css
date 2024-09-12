@@ -1,0 +1,39 @@
+
+
+body,html
+{
+    background-color:lightpink;
+    margin: 50px;
+    padding: 10px;
+}
+
+b,h1, marquee
+{
+    font-style: italic;
+    background-color: blueviolet;
+}
+
+
+#general
+{
+    background-color: chartreuse;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.general2
+{
+    background-color: powderblue;
+    text-align: center
+}
+
+
+
+.div1 
+{
+    height: 300px;
+    width: 600px;
+    background-color: whitesmoke;
+}
+
+

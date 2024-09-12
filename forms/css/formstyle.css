@@ -1,0 +1,24 @@
+label
+{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+input[type = text]
+{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+
+input[type = email]
+{
+    width: 200px;
+     background-color: cornflowerblue;
+}
+
+input[type = submit]
+{
+    width: 200px;
+     background-color:grey;
+}

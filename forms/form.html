@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title> Different types of Forms </title>
+    <link rel = "stylesheet" type="text/css" href = "css/formstyle.css">
+    <script>
+        function myFunction()
+        {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            if (name !== '' && email !== '')
+                {
+                    alert("Thank you all detailed will be sent when you click OK");
+                    return true;
+                    
+                }
+        
+        }
+    
+  
+    </script>
+    
+    
+    
+    </head>
+<body>
+    
+    
+    
+    <form onsubmit= "return myFunction()" action="mailto:iagboola@conesltd.ca" method="post" enctype="multipart/form-data">
+    <b> Newsletter Form with email and name action</b><br><br>
+        <label>Name:</label><input type = "text" id = "name"> <br><br>
+        <label>Email:</label> <input type ="email" id = "email"> <br><br>
+        <input type="submit" value="Join the Newsletter">
+        
+        
+ </form>
+    
+    
+    
+    
+    
+    
+    <hr>
+     <form 
+           onsubmit = "return myFunction()"
+           action="mailto:info@gmail.com" method="post" 
+           enctype="text/plain"
+          
+        >
+    <b> Newsletter Form with email and new html</b><br><br>
+        <label>Name:</label><input type = "text" id = "name"> <br><br>
+        <label>Email: </label><input type ="email" id = "email"> <br><br>
+        <input type="submit">
+ </form>
+    
+    <hr>
+    <b> Contact Us Form </b>
+    
+    <form action = "mailto: contact@conesltd.ca" method="post">
+        
+    Name:<input type="text" id = "name">
+        <br><br>
+        
+    Email: <input type="email" id = "email">
+        <br><br>
+    Phone No: <input type="text" id = "phoneno">
+        <br><br>
+        
+    Department: <br>
+        
+        <input type ="checkbox" id = "item1" name = "item1" value="Sales"><label>Sales</label><br>
+        
+        <input type ="checkbox" id = "item2" name = "item2" value="Invoice"><label>Invoice</label><br>
+        
+        <input type ="checkbox" id = "item3" name = "item3" value="Tourism"><label>Tourism</label>
+        
+        <br><br>
+        
+   Enquiry:
+        <textarea rows="15" cols="40" id = "enquiry" name="enquiry"> </textarea>
+        <br><br>
+        
+        <input type="submit">
+        
+        <input type="reset" value="Cancel">
+        
+    </form>
+    
+    <hr>
+    
+    
+    
+    
+    
+    
+    
+    
+    <b>Login /Sign Up</b>
+    <form></form>
+            
+    Email: <input type="email" id = "email">
+        <br><br>
+    Password: <input type = "password" id ="password"> 
+    <br> <br>
+    
+    <font size = "2">New to this website. Please <b><a href="signup.html">Sign Up</a></b></font><br>
+    <input type="submit" value = "Login">
+    
+    
+        
+        <input type="reset" value="Cancel">
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+</html>

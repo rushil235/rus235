@@ -1,0 +1,91 @@
+<html>
+    
+    <head>
+    <title>Sign Up</title>
+        
+          <script>
+        function myFunction()
+        {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            
+            if ( email == '' )
+                {
+                    alert("Please enter an email");
+                    return false;
+                    
+                }
+            else if (name == '')
+                {
+                    alert("Please enter a name");
+                    return false;
+                    
+                }
+            else{
+                alert("Please input something");
+                    return false;
+            }
+        
+        }
+              
+        </script>
+              
+    </head>
+    
+    <body>
+        <p> The sign up page </p>
+    
+    <form onsubmit = "return myFunction()" action = 'hello.php'>
+                
+    Name:<input type="text" id = "name">
+        <br><br>
+        
+    Email: <input type="email" id = "email">
+        <br><br>
+    Zip Code: <input type="text" id = "zip"> <br><br>
+        
+    Region: 
+    
+        <select id = "region" name = "region">
+            <option value = "europe">Europe     </option>
+            <option value = "africa">Africa     </option>
+            <option value = "namerica">North America     </option>
+            <option value = "asia">Asia     </option>
+            
+            <option value = "islands">Islands    </option>
+        
+       
+       </select>
+        <br><br>
+        
+        Date of birth: 
+            <input type = "date" id = "dob" name = "dob">
+        <br><br>
+        Upload a File:
+        
+        <input type="file" id = "file" name ="file">
+        
+        <br><br>
+        
+        Favourite Color:
+        <input type = "color">
+        
+        <br><br>
+        
+        
+        <input type="submit">
+        
+        <input type="reset" value="Cancel">
+        
+    </form>
+    
+        
+        
+        
+        
+        
+        
+    
+    </body>
+
+</html>
